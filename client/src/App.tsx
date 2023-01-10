@@ -1,13 +1,11 @@
 import { Label } from "./components/Label/Label.component"
 import styled from "styled-components"
+import { Avatar } from "./components/Avatar/Avatar.component"
 
 export function App() {
   return (
     <div>
-      <Label variant="done">DONE</Label>
-      <Label variant="review">REVIEW</Label>
-      <Label variant="inProgress">IN PROGRESS</Label>
-      <Label variant="toDo">TODO</Label>
+      <Avatar src="https://github.com/leandrofahur.png" size="medium" />
     </div>
   )
 }
