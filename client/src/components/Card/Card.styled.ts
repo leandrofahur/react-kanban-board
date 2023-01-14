@@ -11,13 +11,12 @@ export const CardContainer = styled.div`
   /* background-color: ${props => props.theme.white};     */
   background-color: #fafafa;    
   box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
-  padding: 0.5rem;  
-  margin: 3rem;
+  padding: 0.5rem;    
 `
 
 export const CardContent = styled.textarea`
   font-size: 0.75rem;
-  border: .1rem solid rgba(0,0,0,0.2);
+  border: .1rem solid rgba(0,0,0,0.1);
   resize: none;  
   outline: none;
   box-shadow: none;
