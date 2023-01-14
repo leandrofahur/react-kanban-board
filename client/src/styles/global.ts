@@ -7,15 +7,15 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px ${(props) => props.theme.black};
+  }
+
   html, body {
-    background-color: ${(props => props.theme.colors.background)};
-    color: ${(props => props.theme.colors.primary)};
-    -webkit-font-smoothing: antialiased;
-    /* max-width: 100vw;
-    max-height: 100vh;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto; */
+    background-color: ${(props => props.theme.white)};
+    color: ${(props => props.theme.black)};
+    -webkit-font-smoothing: antialiased;    
   }
 
   body, input, textarea, button{
