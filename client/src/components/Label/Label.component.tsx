@@ -1,13 +1,12 @@
 import { LabelHTMLAttributes } from "react";
 import { LabelContainer, LabelVariants } from "./Label.styled";
 
-interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
+export interface LabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
   variant?: LabelVariants,
   children: React.ReactNode
 }
 
 export function Label(props: LabelProps) {
-
   const {
     variant = 'blue',
     children,
